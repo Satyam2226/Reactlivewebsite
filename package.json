@@ -1,6 +1,5 @@
 {
   "name": "personal-portfolio",
-  "homepage": "https://satyam2226.github.io/My___PortfolioWeb/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -15,8 +14,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
