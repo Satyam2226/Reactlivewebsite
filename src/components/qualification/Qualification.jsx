@@ -102,10 +102,10 @@ const Qualification = () => {
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Java (Internship)</h3>
-                                <span className="qualification__subtitle">TechZex Software Pvt Ltd (Bhubaneswar)</span>
+                                <h3 className="qualification__title">Generative AI (Internship)</h3>
+                                <span className="qualification__subtitle">Oretes Consulting Pvt Ltd (Bhubaneswar)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> June 2023 - July 2023
+                                    <i className="uil uil-calendar-alt"></i> June 2024 - July 2024
                                 </div>
                             </div>
                             <div>
@@ -121,10 +121,10 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Generative AI (Internship)</h3>
-                                <span className="qualification__subtitle">Oretes Consulting Pvt Ltd</span>
+                                <h3 className="qualification__title">Java (Internship)</h3>
+                                <span className="qualification__subtitle">TechZex Software Pvt Ltd (Bhubaneswar)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> June 2024 - July 2024
+                                    <i className="uil uil-calendar-alt"></i> June 2023 - July 2023
                                 </div>
                             </div>
                         </div>
