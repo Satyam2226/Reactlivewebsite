@@ -1,16 +1,31 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
+  const [contactNumber, setContactNumber] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!form.current) {
+      console.error("Form reference is null");
+      return;
+    }
+
     emailjs
-      .sendForm('service_mzgof58', 'template_m7euy88', form.current, '5e7QRaHYpsShp8Orb')
-      e.taret.reset()
+      .sendForm('service_5mcs9he', 'template_btj1coq', form.current, '6cxZtLyBp9Hw7AWWH')
+      .then((result) => {
+        console.log("Email sent successfully:", result.text);
+        form.current.reset();  // Reset form after successful submission
+        setContactNumber(""); // Clear input field
+        setMessage(""); // Clear input field
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
   };
 
   return (
@@ -80,7 +95,9 @@ const Contact = () => {
               type="text" 
               name="contactNumber" 
               className="contact__form-input" 
-              placeholder="Insert your contact number" 
+              placeholder="Insert your contact number"
+              value={contactNumber}
+              onChange={(e) => setContactNumber(e.target.value)}
             />
           </div>
 
@@ -88,10 +105,13 @@ const Contact = () => {
             <label className="contact__form-tag">Message</label>
             <textarea 
               name="message" 
-              cols="30" rows="10"
+              cols="30" 
+              rows="10"
               className="contact__form-input" 
               placeholder="Write your message"
               required
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             ></textarea>
           </div>
 

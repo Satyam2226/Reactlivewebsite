@@ -73,7 +73,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Intermediate (12th)</h3>
                                 <span className="qualification__subtitle">S.S High School Alouli (Khagariya)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020-2021
+                                    <i className="uil uil-calendar-alt"></i> 2020-2022
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Matriculation (10th)</h3>
                                 <span className="qualification__subtitle">S.S High School Alouli (Khagariya)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019
+                                    <i className="uil uil-calendar-alt"></i> 2019-2020
                                 </div>
                             </div>
                             <div>
