@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Reactlivewebsite/static/css/main.332c1528.css",
-    "main.js": "/Reactlivewebsite/static/js/main.cb1b712e.js",
+    "main.js": "/Reactlivewebsite/static/js/main.a3d6943c.js",
     "static/js/453.2fd20cbb.chunk.js": "/Reactlivewebsite/static/js/453.2fd20cbb.chunk.js",
     "static/media/profile (3).jpg": "/Reactlivewebsite/static/media/profile (3).3c622215e10a7c2d0670.jpg",
     "static/media/Resume_Modf.pdf": "/Reactlivewebsite/static/media/Resume_Modf.c7f2eea2cdec72680e1c.pdf",
     "static/media/work1.png": "/Reactlivewebsite/static/media/work1.753b10dedd3fb0b48d94.png",
     "static/media/profile (4).jpg": "/Reactlivewebsite/static/media/profile (4).a1fced9a27a2f06f2885.jpg",
-    "static/media/work3.png": "/Reactlivewebsite/static/media/work3.b53d679b01f71f1f0ef3.png",
-    "static/media/work5.jpg": "/Reactlivewebsite/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work5.png": "/Reactlivewebsite/static/media/work5.372227888097d5c94508.png",
+    "static/media/work4.png": "/Reactlivewebsite/static/media/work4.b90fc7a90806a2de041a.png",
     "static/media/work6.png": "/Reactlivewebsite/static/media/work6.d908194480c8f5a52df8.png",
     "index.html": "/Reactlivewebsite/index.html",
     "main.332c1528.css.map": "/Reactlivewebsite/static/css/main.332c1528.css.map",
-    "main.cb1b712e.js.map": "/Reactlivewebsite/static/js/main.cb1b712e.js.map",
+    "main.a3d6943c.js.map": "/Reactlivewebsite/static/js/main.a3d6943c.js.map",
     "453.2fd20cbb.chunk.js.map": "/Reactlivewebsite/static/js/453.2fd20cbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.332c1528.css",
-    "static/js/main.cb1b712e.js"
+    "static/js/main.a3d6943c.js"
   ]
 }
