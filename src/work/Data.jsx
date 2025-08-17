@@ -1,7 +1,7 @@
 import Work1 from "../../src/assets/work1.png";
 import Work2 from "../../src/assets/work6.png";
-import Work3 from "../../src/assets/work3.png";
-import Work7 from "../../src/assets/work7.png";
+import Work4 from "../../src/assets/work4.png";
+import Work5 from "../../src/assets/work5.png";
 
 export const projectsData = [
     {
@@ -18,13 +18,13 @@ export const projectsData = [
     },
     {
         id: 3,
-        image: Work3,
+        image: Work4,
         title: "App Design",
         category: "app"
     },
     {
         id: 4,
-        image: Work7,
+        image: Work5,
         title: "App Design",
         category: "app"
     },
