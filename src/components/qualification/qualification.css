@@ -30,7 +30,7 @@
     color: var(--title-color-dark);
 }
 
-.qualification__sections {
+.qualification__section {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -115,7 +115,7 @@
     }
 
     .qualification__button{
-        nargin:0 var(--mb-0-75);
+        margin:0 var(--mb-0-75);
     }
   }
   
