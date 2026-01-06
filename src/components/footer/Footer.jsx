@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className='footer__copy'>2024 copyright all right reserved</span>
+        <span className='footer__copy'>2026 copyright all right reserved</span>
       </div>
     </footer>
   );
